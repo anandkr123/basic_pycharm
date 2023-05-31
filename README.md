@@ -20,8 +20,8 @@ Additionally, each image will have a different character spacing, adding further
 using ‘data_generation.ipynb’ specifying the directory = ‘train’. The images are created in data/train directory.
 
 Sample images from dataset:
-![40863](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/6004ece4-d118-48a5-8b6d-4a7abe34ecd6)
 
+![40863](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/6004ece4-d118-48a5-8b6d-4a7abe34ecd6)
 ![69808](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/bdab9294-3ab4-4a57-9d0a-bc134a3e967f)
 
 ## Deep learning model
