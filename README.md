@@ -10,11 +10,11 @@ Build a full example with artificial generated samples of at least 60.000 images
 E.g. 37463 or 23837
 The task is to generate artificial image samples and their corresponding labels for an OCR (Optical Character Recognition) Deep learning model. The images will be
 
-• grayscale and will contain 5 digits each,
-• Size of (64, 128)
-• with each digit being a number between 0 and 9.
-• There will be at least 60,000 images generated, each with a different set of 5 digits.
-• The images will vary in font type and size, with 22 different font types used and font sizes ranging from 18 to 25.
+- grayscale and will contain 5 digits each,
+- Size of (64, 128)
+- with each digit being a number between 0 and 9.
+- There will be at least 60,000 images generated, each with a different set of 5 digits.
+- The images will vary in font type and size, with 22 different font types used and font sizes ranging from 18 to 25.
 
 Additionally, each image will have a different character spacing, adding further variety to the data samples. The goal of introducing these nuances is to create a diverse and realistic data set for training an OCR model that can accurately read and recognize digits in various styles and sizes. Training images can be created
 using ‘data_generation.ipynb’ specifying the directory = ‘train’. The images are created in data/train directory.
@@ -50,14 +50,14 @@ repetitions of characters. By optimizing the CTC loss, the OCR model can effecti
 # Model training
 
 The model is trained over google colab, To get an overview of training and predictions, please follow this Google colab [notebook](https://colab.research.google.com/drive/1UP9YlU0v8u2i7nnDH6UMFw_tm8nV7ozP?authuser=2#scrollTo=j8NcITX_6rda)
-The optimizer used is Adam with a learning rate of 3e-4.
-For model training, we are tracking the training loss with patience of 5.
-Number of epochs = 55, batch_size = 256
+- The optimizer used is Adam with a learning rate of 3e-4.
+- For model training, we are tracking the training loss with patience of 5.
+- Number of epochs = 55, batch_size = 256
 
 Below figure shows the training loss over epoch
 ![Screenshot from 2023-05-16 12-08-11](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/5b172955-f2fc-4eb8-8ff9-4be8ef58d1e1)
 
-Due to patience = 5, the training stopped at 43 rd epoch. The loss reached a minimum value
+Due to patience = 5, the training stopped at 43rd epoch. The loss reached a minimum value
 of 0 .0015
 
 # Predcitions
