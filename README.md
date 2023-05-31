@@ -21,15 +21,19 @@ using ‘data_generation.ipynb’ specifying the directory = ‘train’. The im
 
 Sample images from dataset:
 
-![40863](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/6004ece4-d118-48a5-8b6d-4a7abe34ecd6)
+![40863](https://github.com/anandkr123/ocr-digit-recognition/assets
+/23450113/b9da93be-33a6-4dbb-a355-6e68dfbd3774)
 
-![69808](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/bdab9294-3ab4-4a57-9d0a-bc134a3e967f)
+![69808](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/45301612-c114-49d2-9147-c376ca1c56cf)
+
+
+
 
 ## Deep learning model
 
 Text recognition pipeline (CNN+LSTM) with CTC loss
 
-![Screenshot from 2023-05-31 10-47-53](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/5e69720b-498a-445a-8d70-0adc3a945404)
+![Screenshot from 2023-05-31 10-47-53](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/03f24589-2ce6-48e9-8d84-247c6c03ad3a)
 
 
 # (Connectionist Temporal classification) CTC Loss
@@ -58,7 +62,8 @@ The model is trained over google colab, To get an overview of training and predi
 
 Below figure shows the training loss over epoch
 
-![Screenshot from 2023-05-16 12-08-11](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/5b172955-f2fc-4eb8-8ff9-4be8ef58d1e1)
+![Screenshot from 2023-05-16 12-08-11](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/e8016eff-38ff-4ce2-a6fe-0751b76d0a5a)
+
 
 Due to patience = 5, the training stopped at 43rd epoch. The loss reached a minimum value
 of 0 .0015
@@ -68,7 +73,6 @@ of 0 .0015
 Below are some predicted labels over the test set.
 Thetest set contains 60 images in (‘data/test’ directory) generated in a similar way as for training. The script restore the weights of the trained model dr_model.h5. The below images shows the results after running the **script ‘model_test.py’** .
 
-![Screenshot from 2023-05-16 12-15-36](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/97d60416-7544-4bc6-89b6-c35f5f1c4f4f)
-
+![Screenshot from 2023-05-16 12-15-36](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/5deef8de-5ba6-4362-adb3-c3184c10c1ec)
 
 
