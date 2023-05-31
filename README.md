@@ -22,11 +22,13 @@ using ‘data_generation.ipynb’ specifying the directory = ‘train’. The im
 Sample images from dataset:
 
 ![40863](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/6004ece4-d118-48a5-8b6d-4a7abe34ecd6)
+
 ![69808](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/bdab9294-3ab4-4a57-9d0a-bc134a3e967f)
 
 ## Deep learning model
 
 Text recognition pipeline (CNN+LSTM) with CTC loss
+
 ![Screenshot from 2023-05-31 10-47-53](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/5e69720b-498a-445a-8d70-0adc3a945404)
 
 
@@ -55,6 +57,7 @@ The model is trained over google colab, To get an overview of training and predi
 - Number of epochs = 55, batch_size = 256
 
 Below figure shows the training loss over epoch
+
 ![Screenshot from 2023-05-16 12-08-11](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/5b172955-f2fc-4eb8-8ff9-4be8ef58d1e1)
 
 Due to patience = 5, the training stopped at 43rd epoch. The loss reached a minimum value
