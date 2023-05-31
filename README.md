@@ -21,12 +21,9 @@ using ‘data_generation.ipynb’ specifying the directory = ‘train’. The im
 
 Sample images from dataset:
 
-![40863](https://github.com/anandkr123/ocr-digit-recognition/assets
-/23450113/b9da93be-33a6-4dbb-a355-6e68dfbd3774)
+![40863](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/b9da93be-33a6-4dbb-a355-6e68dfbd3774)
 
 ![69808](https://github.com/anandkr123/ocr-digit-recognition/assets/23450113/45301612-c114-49d2-9147-c376ca1c56cf)
-
-
 
 
 ## Deep learning model
