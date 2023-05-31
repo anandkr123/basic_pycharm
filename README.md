@@ -1,1 +1,1 @@
-# basic_pycharm
+# OCR digit recognition
