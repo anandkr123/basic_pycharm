@@ -49,8 +49,7 @@ repetitions of characters. By optimizing the CTC loss, the OCR model can effecti
 
 # Model training
 
-The model is trained over google colab, To get an overview of training and predictions, please
-follow this Google colab notebook
+The model is trained over google colab, To get an overview of training and predictions, please follow this Google colab [notebook](https://colab.research.google.com/drive/1UP9YlU0v8u2i7nnDH6UMFw_tm8nV7ozP?authuser=2#scrollTo=j8NcITX_6rda)
 The optimizer used is Adam with a learning rate of 3e-4.
 For model training, we are tracking the training loss with patience of 5.
 Number of epochs = 55, batch_size = 256
