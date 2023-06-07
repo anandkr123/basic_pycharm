@@ -1,6 +1,6 @@
 # OCR digit recognition
 
-Train a deep learning model to read characters from pictures (OCR). In particular the algorithm is supposed
+Train a deep learning model to read characters from simulated number plates pictures (OCR). In particular the algorithm is supposed
 to always read a fixed amount of numbers between [0,9]. The system will be presented with cropped plates
 with 5 numbers each. E.g. 37463 or 23837
 
